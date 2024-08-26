@@ -69,3 +69,46 @@ body {
 .img-acomodacao1 img {
     border-top-left-radius: 15px;
 }
+
+.nav {
+    display: flex;
+    margin-bottom: 50px;
+
+
+    justify-content: space-between;
+}
+
+.botoes-nav {
+    display: flex;
+    
+}
+
+.botao-pesquisa {
+    display: inline-block;
+    fill: none;
+    max-height: 50px;
+    max-width: 20rem ;
+    stroke: currentColor;
+    stroke-width: 5.3333;
+    overflow: visible;
+}
+
+.botao-anuncio {
+    display: inline-block;
+    fill: none;
+    max-height: 50px;
+    max-width: 20rem ;
+    stroke: currentColor;
+    stroke-width: 5.3333;
+    overflow: visible;
+    margin-inline: 3rem;
+    border: none;
+    color: none;
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+.botao-anuncio:hover {
+    background-color: gray;
+}
